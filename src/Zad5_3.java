@@ -5,14 +5,14 @@ public class Zad5_3 {
 
         double number = 0;
         while (number < 3.1) {
-            System.out.print (number + ", ");
+            System.out.printf("%.1f  ",number);
             number += 0.1;
         }
 
         System.out.println();
         number = 0;
         do {
-            System.out.print(number + ", ");
+            System.out.printf("%.1f  ",number);
             number += 0.1;
         }
         while (number < 3.1);
