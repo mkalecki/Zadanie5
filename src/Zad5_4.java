@@ -10,6 +10,15 @@ public class Zad5_4 {
         System.out.println("podaj współrzędną Y");
         int y = input.nextInt();
 
+        if (x==0 && y == 0)
+            System.out.printf("Punkt (%d,%d) leży w środku układu współrzędnych", x, y);
+
+        if (x==0 && y!=0)
+            System.out.printf("Punkt (%d,%d) leży na osi Y", x, y);
+
+        if (y==0 && x!=0)
+            System.out.printf("Punkt (%d,%d) leży na osi X", x, y);
+
         if ((x > 0) && (y > 0)) {
             System.out.printf("Punkt (%d,%d) leży w I ćwiartce układu współrzędnych", x, y);
         }
